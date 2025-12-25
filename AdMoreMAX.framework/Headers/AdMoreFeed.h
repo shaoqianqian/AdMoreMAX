@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  信息流加载成功
  */
-- (void)adMoreFeedLoad:(NSArray<AdMoreFeedView *> * _Nullable)unifieFeedAdViewArray;
+- (void)adMoreFeedLoad:(AdMoreFeed *)adMoreFeed unifieFeedAdViewArray:(NSArray<AdMoreFeedView *> * _Nullable)unifieFeedAdViewArray;
 /**
  信息流加载失败
  */
