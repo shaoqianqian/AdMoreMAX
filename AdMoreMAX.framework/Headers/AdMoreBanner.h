@@ -51,6 +51,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy)NSString *slotId;
 
+@property (nonatomic, assign)NSInteger width;
+
+@property (nonatomic, assign)NSInteger height;
+
 /// 请求并展示广告
 - (void)loadAd;
 

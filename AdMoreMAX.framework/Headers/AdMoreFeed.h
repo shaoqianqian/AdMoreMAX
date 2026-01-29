@@ -40,6 +40,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy)NSString *slotId;
 
+@property (nonatomic, assign)NSInteger width;
+
+@property (nonatomic, assign)NSInteger height;
+
 
 /// 初始化广告
 - (instancetype)initWithPlaceId:(NSString *)placeId;
