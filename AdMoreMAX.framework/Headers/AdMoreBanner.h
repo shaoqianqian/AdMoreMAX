@@ -57,7 +57,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 请求并展示广告
 - (void)loadAd;
-
+- (void)showAd:(UIView *)view;
 @end
 
 NS_ASSUME_NONNULL_END
