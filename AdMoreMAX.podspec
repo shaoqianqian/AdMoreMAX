@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AdMoreMAX'
-  s.version          = '3.5.8.1'
+  s.version          = '3.5.9'
   s.summary          = 'AdMore adapter for Taku mediation.'
   s.description      = 'A lightweight .framework adapter to integrate AdMore with sdk mediation.'
   s.homepage         = 'https://github.com/shaoqianqian/AdMoreMAX.git'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = { 'AdMore' => '1007647034@qq.com' }
   s.source           = { :git => 'https://github.com/shaoqianqian/AdMoreMAX.git', :tag => s.version }
 
-  s.platform         = :ios, '12.0'
+  s.platform         = :ios, '13.0'
   s.vendored_frameworks = 'AdMoreMAX.framework'
   s.swift_version    = '5.0'
 end
