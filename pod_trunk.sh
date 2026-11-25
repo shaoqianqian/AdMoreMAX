@@ -1,6 +1,6 @@
 git add .
 git commit -m "AdMoreMAX"
 git push origin main
-git tag 3.5.9
+git tag 3.6.0
 git push origin main --tags
 pod trunk push AdMoreMAX.podspec --skip-import-validation --skip-tests --allow-warnings
